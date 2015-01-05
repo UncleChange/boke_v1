@@ -1,4 +1,4 @@
-<%@page import="com.cn.wangsy.mapping.pojo.User"%>
+<%@page import="com.cn.wangsy.business.user.pojo.User"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -10,9 +10,10 @@
 <body>
 <%
 	User user = (User)request.getAttribute("user");
-	int id = user.getId();	
+	int id = user.getId();
+	String name=user.getUserName();	
 %>
-<strong><%=id %></strong>
+<strong><%=id %></strong> |&nbsp; &nbsp;&nbsp;姓名: <strong><%=name %></strong>
 </body>
 
 </html>

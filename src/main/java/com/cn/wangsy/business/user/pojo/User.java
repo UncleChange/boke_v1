@@ -1,4 +1,4 @@
-package com.cn.wangsy.mapping.pojo;
+package com.cn.wangsy.business.user.pojo;
 
 public class User {
     private Integer id;

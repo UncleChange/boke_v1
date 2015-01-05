@@ -9,7 +9,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.alibaba.fastjson.JSON;
-import com.cn.wangsy.mapping.pojo.User;
+import com.cn.wangsy.business.user.pojo.User;
 import com.cn.wangsy.business.user.service.IUserService;
 
 @RunWith(SpringJUnit4ClassRunner.class)

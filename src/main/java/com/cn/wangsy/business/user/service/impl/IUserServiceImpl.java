@@ -4,8 +4,8 @@ import javax.annotation.Resource;
 
 import org.springframework.stereotype.Service;
 
-import com.cn.wangsy.mapping.pojo.User;
 import com.cn.wangsy.business.user.dao.UserDao;
+import com.cn.wangsy.business.user.pojo.User;
 import com.cn.wangsy.business.user.service.IUserService;
 
 @Service("iUserService")

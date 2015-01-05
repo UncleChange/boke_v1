@@ -1,6 +1,6 @@
 package com.cn.wangsy.business.user.dao;
 
-import com.cn.wangsy.mapping.pojo.User;
+import com.cn.wangsy.business.user.pojo.User;
 
 
 public interface UserDao {
